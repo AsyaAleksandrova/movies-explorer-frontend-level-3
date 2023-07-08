@@ -1,0 +1,11 @@
+.profile__item {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   padding: 17px 0;
+   position: relative;
+}
+
+.profile__item:first-of-type {
+   border-bottom: 1px solid #424242;
+}

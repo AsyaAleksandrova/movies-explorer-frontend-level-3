@@ -1,0 +1,16 @@
+.menu__profile-icon {
+   display: inline-block;
+   background-color: #313131;
+   width: 10.38px;
+   height: 10.67px;
+   border-radius: 6px;
+   padding: 9.75px 9.81px 9.58px;
+   margin-left: 9px;
+   transition: all 0.5s ease;
+}
+
+@media screen and (max-width: 768px) {
+   .menu__profile-icon {
+      margin-left: 13px;
+   }
+}

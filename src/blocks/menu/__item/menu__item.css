@@ -1,0 +1,16 @@
+.menu__item {
+   text-decoration: none;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+
+.menu__item_main {
+   display: none;
+}
+
+@media screen and (max-width: 768px) {
+   .menu__item_main {
+      display: unset;
+   }
+}

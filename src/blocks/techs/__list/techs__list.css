@@ -1,0 +1,19 @@
+.techs__list {
+   margin: 100px auto 0;
+   padding: 0;
+   list-style-type: none;
+   width: 100%;
+   max-width: 690px;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   gap: 10px;
+   justify-content: center;
+}
+
+@media screen and (max-width: 480px) {
+   .techs__list {
+      padding: 0 20px;
+      width: calc(100% - 40px);
+   }
+}

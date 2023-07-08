@@ -1,0 +1,12 @@
+.about__container {
+   margin-top: 66px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+@media screen and (max-width: 642px) {
+   .about__container {
+      flex-direction: column-reverse;
+   }
+}

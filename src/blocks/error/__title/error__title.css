@@ -1,0 +1,16 @@
+.error__title {
+   margin: 0;
+   text-decoration: none;
+   font-family: Inter, Helvetica, sans-serif;
+   font-weight: 400;
+   font-size: 140px;
+   line-height: 169px;
+   color: #ffffff;
+}
+
+@media screen and (max-width: 480px) {
+   .error__title {
+      font-size: 80px;
+      line-height: 97px;
+   }
+}

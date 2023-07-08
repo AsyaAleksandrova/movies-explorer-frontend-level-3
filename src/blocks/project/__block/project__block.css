@@ -1,0 +1,18 @@
+.project__block {
+   display: flex;
+   flex-direction: column;
+   gap: 26px;
+   justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+   .project__block {
+      gap: 22px;
+   }
+}
+
+@media screen and (max-width: 480px) {
+   .project__block {
+      gap: 16px;
+   }
+}

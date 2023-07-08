@@ -1,0 +1,19 @@
+.footer {
+   background-color: #202020;
+   width: calc(100% - 140px);
+   padding: 0 70px;
+}
+
+@media screen and (max-width: 768px) {
+   .footer {
+      width: calc(100% - 60px);
+      padding: 0 30px;
+   }
+}
+
+@media screen and (max-width: 480px) {
+   .footer {
+      width: calc(100% - 20px);
+      padding: 0 10px;
+   }
+}

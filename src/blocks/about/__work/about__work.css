@@ -1,0 +1,48 @@
+.about__work {
+   color: #ffffff;
+   text-decoration: none;
+   font-family: Inter, Helvetica, sans-serif;
+   font-weight: 400;
+   font-size: 30px;
+   line-height: 50px;
+   letter-spacing: -0.04em;
+   display: block;
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   box-sizing: border-box;
+   padding: 10px 0;
+   border-bottom: 1px solid #424242;
+   transition: all 0.5s ease;
+}
+
+.about__work_last {
+   border-bottom: none;
+}
+
+.about__work_note{
+   color: #8b8b8b;
+   font-size: 14px;
+}
+
+.about__work:hover {
+   color: #3DDC84;
+   font-weight: 200;
+   opacity: 0.8;
+}
+
+@media screen and (max-width: 768px) {
+   .about__work {
+      font-size: 28px;
+   }
+}
+
+@media screen and (max-width: 642px) {
+   .about__work {
+      font-size: 18px;
+      line-height: 28px;
+      padding: 20px 0;
+   }
+}

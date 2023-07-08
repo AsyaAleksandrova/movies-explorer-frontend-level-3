@@ -1,0 +1,12 @@
+.about__worklist {
+   list-style-type: none;
+   padding: 0;
+   margin-top: 30px;
+   width: 100%;
+}
+
+@media screen and (max-width: 642px) {
+   .about__worklist {
+      margin-top: 20px;
+   }
+}

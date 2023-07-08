@@ -1,0 +1,22 @@
+.about__subtitle {
+   color: #8b8b8b;
+   font-family: Inter, Helvetica, sans-serif;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 20px;
+   margin: 101px 0 0;
+}
+
+@media screen and (max-width: 768px) {
+   .about__subtitle {
+      margin-top: 91px;
+   }
+}
+
+@media screen and (max-width: 480px) {
+   .about__subtitle {
+      margin-top: 70px;
+      font-size: 14px;
+      line-height: 20px;
+   }
+}

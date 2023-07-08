@@ -1,0 +1,16 @@
+.project__subtitle {
+   color: #ffffff;
+   font-family: Inter, Helvetica, sans-serif;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 24px;
+   letter-spacing: -0.04em;
+   margin: 0;
+}
+
+@media screen and (max-width: 480px) {
+   .project__subtitle {
+      font-size: 18px;
+      line-height: 22px;
+   }
+}

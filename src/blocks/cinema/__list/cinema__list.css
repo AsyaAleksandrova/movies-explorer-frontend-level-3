@@ -1,0 +1,22 @@
+.cinema__list {
+   width: 100%;
+   list-style-type: none;
+   padding: 0;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   row-gap: 30px;
+   column-gap: 10px;
+   justify-content: space-around;
+}
+
+@media screen and (max-width: 1059px) {
+   .cinema__list {
+      grid-template-columns: repeat(2, 1fr);
+   }
+}
+
+@media screen and (max-width: 669px) {
+   .cinema__list {
+      grid-template-columns: repeat(1, 1fr);
+   }
+}

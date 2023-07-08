@@ -1,0 +1,22 @@
+.project__description {
+   color: #ffffff;
+   font-family: Inter, Helvetica, sans-serif;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 20px;
+   margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+   .project__description {
+      font-size: 12px;
+      line-height: 18px;
+   }
+}
+
+@media screen and (max-width: 480px) {
+   .project__description {
+      font-size: 11px;
+      line-height: 16px;
+   }
+}

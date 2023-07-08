@@ -1,0 +1,21 @@
+.film__container {
+   width: 100%;
+   min-width: 300px;
+   max-width: 384px;
+   height: 271px;
+   background-color: #222222;
+   position: relative;
+}
+
+@media screen and (max-width: 1000px) {
+   .film__container {
+      height: 258px;
+   }
+}
+
+@media screen and (max-width: 669px) {
+   .film__container {
+      min-width: 260px;
+      height: 236px;
+   }
+}

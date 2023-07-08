@@ -1,0 +1,11 @@
+.auth__server-error{
+   position: absolute;
+   bottom: 110px;
+   width: 100%;
+   text-align: center;
+   font-family: Inter, Helvetica, sans-serif;
+   font-weight: 300;
+   font-size: 14px;
+   line-height: 16px;
+   color: #ee3465;
+}

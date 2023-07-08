@@ -1,0 +1,9 @@
+.footer__copy {
+   margin: 0;
+}
+
+@media screen and (max-width: 480px) {
+   .footer__copy {
+      color: #8b8b8b;
+   }
+}

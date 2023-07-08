@@ -1,0 +1,15 @@
+@media screen and (max-width: 768px) {
+   .menu__list_open {
+      opacity: 1;
+      visibility: visible;
+      padding-top: 159px;
+      padding-bottom: 92px;
+   }
+}
+
+@media screen and (max-width: 320px) {
+   .menu__list_open {
+      padding-top: 144px;
+      padding-bottom: 48px;
+   }
+}

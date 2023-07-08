@@ -1,0 +1,16 @@
+.promo__banner {
+   height: 320px;
+   background-image: url(../../../images/pic__COLOR_landing-logo.svg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: contain;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+@media screen and (max-width: 480px) {
+   .promo__banner {
+      height: 248px;
+   }
+}

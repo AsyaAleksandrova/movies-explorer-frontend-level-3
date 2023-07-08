@@ -1,0 +1,13 @@
+.menu__block {
+   display: flex;
+   flex-direction: row;
+   gap: 8px;
+}
+
+@media screen and (max-width: 768px) {
+   .menu__block {
+      flex-direction: column;
+      align-items: center;
+      gap: 24px;
+   }
+}

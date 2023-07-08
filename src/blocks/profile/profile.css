@@ -1,0 +1,19 @@
+.profile {
+   height: 482px;
+   width: 410px;
+   position: relative;
+}
+
+@media screen and (max-width: 768px) {
+   .profile {
+      height: 445px;
+   }
+}
+
+@media screen and (max-width: 480px) {
+   .profile {
+      height: calc(100vh - 144px - 40px);
+      width: calc(100% - 60px);
+      margin: 144px 30px 40px 30px;
+   }
+}

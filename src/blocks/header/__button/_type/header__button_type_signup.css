@@ -1,0 +1,11 @@
+.header__button_type_signup {
+   background-color: transparent;
+   color: #ffffff;
+   margin-right: 10px;
+}
+
+@media screen and (max-width: 320px) {
+   .header__button_type_signup {
+      margin-right: 2px;
+   }
+}

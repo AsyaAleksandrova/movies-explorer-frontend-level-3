@@ -1,0 +1,21 @@
+.project__container {
+   margin: 70px 0 110px;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   column-gap: 40px;
+}
+
+@media screen and (max-width: 768px) {
+   .project__container {
+      margin: 70px 0 93px;
+      column-gap: 30px;
+   }
+}
+
+@media screen and (max-width: 635px) {
+   .project__container {
+      margin: 60px 0;
+      grid-template-columns: 1fr;
+      row-gap: 56px;
+   }
+}

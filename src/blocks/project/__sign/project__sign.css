@@ -1,0 +1,24 @@
+.project__sign {
+   margin: 0;
+   color: #8B8B8B;
+   text-align: center;
+   padding-top: 14px;
+   font-family: Inter, Helvetica, sans-serif;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 17px;
+}
+
+@media screen and (max-width: 768px) {
+   .project__sign {
+      font-weight: 400;
+   }
+}
+
+@media screen and (max-width: 480px) {
+   .project__sign {
+      font-size: 11px;
+      line-height: 13px;
+      padding-top: 10px;
+   }
+}

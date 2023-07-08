@@ -1,0 +1,35 @@
+.search {
+   height: fit-content;
+   padding: 70px 0px 80px;
+   box-sizing: border-box;
+   background-color: #202020;
+   width: calc(100% - 140px);
+   max-width: 1140px;
+   margin: 0 auto;
+   position: relative;
+}
+
+.search::after {
+   content: '';
+   width: 100%;
+   height: 1px;
+   background-color: #424242;
+   position: absolute;
+   bottom: 10px;
+   left: 0px;
+   right: 0px;
+}
+
+@media screen and (max-width: 768px) {
+   .search {
+      padding: 80px 0px 120px;
+      width: calc(100% - 60px);
+   }
+}
+
+@media screen and (max-width: 480px) {
+   .search {
+      padding: 80px 0px 120px;
+      width: calc(100% - 20px);
+   }
+}

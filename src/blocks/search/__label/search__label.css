@@ -1,0 +1,13 @@
+.search__label {
+   width: 34px;
+   height: 34px;
+   background-image: url(../../../images/search.svg);
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
+@media screen and (max-width: 650px) {
+   .search__label {
+      display: none;
+   }
+}

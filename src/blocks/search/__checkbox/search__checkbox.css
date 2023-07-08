@@ -1,0 +1,28 @@
+.search__checkbox {
+   width: 36px;
+   height: 20px;
+   background-color: #8b8b8b;
+   border-radius: 20px;
+   position: relative;
+   cursor: pointer;
+}
+
+.search__checkbox::before {
+   content: '';
+   position: absolute;
+   top: 2px;
+   left: 2px;
+   width: 16px;
+   height: 16px;
+   border-radius: 50%;
+   background-color: #ffffff;
+   transition: all 0.5s ease;
+}
+
+.search__hidebox:checked~.search__checkbox {
+   background-color: #3ddc84;
+}
+
+.search__hidebox:checked~.search__checkbox::before {
+   transform: translateX(16px);
+}

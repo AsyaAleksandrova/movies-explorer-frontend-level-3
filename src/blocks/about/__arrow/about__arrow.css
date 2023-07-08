@@ -1,0 +1,12 @@
+.about__arrow {
+   display: inline-block;
+   transform: rotate(-45deg);
+   line-height: 60px;
+   letter-spacing: -0.04em;
+}
+
+@media screen and (max-width: 642px) {
+   .about__arrow {
+      line-height: 28px;
+   }
+}

@@ -1,0 +1,37 @@
+.menu__burger_open {
+   display: none;
+   position: fixed;
+   top: 20px;
+   right: 20px;
+}
+
+.menu__burger_open::before {
+   content: '';
+   position: absolute;
+   top: 12px;
+   right: 0;
+   height: 3px;
+   width: 22px;
+   transform: rotate(45deg);
+   background-color: #ffffff;
+   cursor: pointer;
+}
+
+.menu__burger_open::after {
+   content: '';
+   position: absolute;
+   top: 12px;
+   right: 0;
+   height: 3px;
+   width: 22px;
+   transform: rotate(-45deg);
+   background-color: #ffffff;
+   cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+   .menu__burger_open {
+      display: block;
+      z-index: 2;
+   }
+}

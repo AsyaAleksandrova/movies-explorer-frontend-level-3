@@ -1,0 +1,25 @@
+.header__button {
+   height: 32px;
+   border: none;
+   border-radius: 3px;
+   cursor: pointer;
+   padding: 8px 20px;
+   font-family: Inter, Helvetica, sans-serif;
+   font-weight: 500;
+   font-size: 12px;
+   line-height: 16px;
+   transition: all 0.5s ease;
+}
+
+@media screen and (max-width: 320px) {
+   .header__button {
+      font-size: 10px;
+      padding: 5px 12px;
+      height: 26px;
+   }
+}
+
+
+.header__button:active{
+   transform: scale(0.96);
+}

@@ -1,0 +1,26 @@
+.auth__input {
+   box-sizing: border-box;
+   width: 100%;
+   background-color: transparent;
+   border: none;
+   padding-bottom: 10px;
+   border-bottom: 1px solid #424242;
+   color: #ffffff;
+   font-family: Inter, Helvetica, sans-serif;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 17px;
+   position: absolute;
+   left: 0;
+   bottom: 18px;
+}
+
+.auth__input_invalid {
+   color: #EE3465;
+}
+
+.auth__input:focus {
+   outline: 0;
+   outline-offset: 0;
+   border-bottom: 1px solid #4285F4;
+}

@@ -1,0 +1,25 @@
+.cinema {
+   height: fit-content;
+   padding: 70px 0px 80px;
+   box-sizing: border-box;
+   background-color: #202020;
+   width: calc(100% - 140px);
+   max-width: 1140px;
+   margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+   .cinema {
+      width: calc(100% - 60px);
+   }
+}
+
+@media screen and (max-width: 480px) {
+   .cinema {
+      padding: 40px 0px 80px;
+      width: calc(100% - 20px);
+   }
+}
